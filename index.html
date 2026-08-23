@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ar condicionado do Freud</title>
+</head>
+<body>
+    <h1 class="texto">Ar condicionado do Freud</h1>
+    <h2 class="texto">Controle seu Ar condicionado</h2>
+    <p id="status-ac" class="status-ac">Procurando ar-condicionado...</p>
+    <div class="config-ac">
+        <label for="ac-ip">IP do ar-condicionado:</label>
+        <input id="ac-ip" type="text" placeholder="Ex.: 192.168.1.50" />
+        <button id="buscar-ip" class="btn btn-small">Confirmar IP</button>
+    </div>
+    <main class="container">
+        <button class="btn ligar" id="ligar"><span aria-hidden="true">⏻</span> Ligar</button>
+        <button class="btn desligar" id="desligar"><span aria-hidden="true">⏼</span> Desligar</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
